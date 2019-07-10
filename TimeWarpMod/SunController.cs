@@ -152,11 +152,11 @@ namespace TimeWarpMod
 
                 if (!DayNightEnabled)
                     return;
-                /*
+                
                 float hour = ((sim.m_referenceFrameIndex + sim.m_dayTimeOffsetFrames) + this.m_referenceTimer) * DAYTIME_FRAME_TO_HOUR
             
                  hour / DAYTIME_FRAME_TO_HOUR = (sim.m_referenceFrameIndex + sim.m_dayTimeOffsetFrames + this.m_referenceTimer)
-                */
+                
 
                 int offset = (int)((value - sim.m_currentDayTimeHour) / SimulationManager.DAYTIME_FRAME_TO_HOUR);
                 dayOffsetFrames = (uint)(((long)dayOffsetFrames + offset) % SimulationManager.DAYTIME_FRAMES);
