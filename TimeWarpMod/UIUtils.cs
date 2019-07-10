@@ -35,7 +35,7 @@ namespace BuildingThemes.GUI
             slider.area = new Vector4(8, 0, bg.width - 16, 15);
             slider.height = 17;
             slider.autoSize = false;
-            //slider.backgroundSprite = "ChirpScrollbarTrack";
+            slider.backgroundSprite = "ChirpScrollbarTrack";
 
             slider.maxValue = max;
             slider.minValue = min;
