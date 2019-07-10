@@ -133,10 +133,10 @@ namespace TimeWarpMod
 
             float time = (angle * 12.0f) / 180.0f;
 
-            //Debug.Log("Mouse moved on zoom button");
-            //Debug.Log("Angle =" + angle);
-            //Debug.Log("Time = " + time);
-            //Debug.Log("Button: " + eventParam.buttons);
+            Debug.Log("Mouse moved on zoom button");
+            Debug.Log("Angle =" + angle);
+            Debug.Log("Time = " + time);
+            Debug.Log("Button: " + eventParam.buttons);
 
             if (eventParam.buttons == UIMouseButton.Right)
                 sunControl.TimeOfDay = time;
