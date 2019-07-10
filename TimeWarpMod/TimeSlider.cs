@@ -46,7 +46,7 @@ namespace TimeWarpMod
             ((UISprite)timeSlider.thumbObject).spriteName = "InfoIconBasePressed";
 
             timeSlider.eventDragStart += timeSlider_eventDragStart;
-            //timeSlider.eventDragEnd += timeSlider_eventDragEnd;
+            timeSlider.eventDragEnd += timeSlider_eventDragEnd;
 
             eventMouseUp += timeSlider_eventDragEnd;
 
